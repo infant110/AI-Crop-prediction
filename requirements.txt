@@ -1,0 +1,25 @@
+# Data Handling & Operations
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+shap
+
+# Visualization
+matplotlib
+seaborn
+
+# Backend (FastAPI)
+fastapi
+uvicorn
+
+# Frontend (Streamlit)
+streamlit
+
+# Development & Utilities
+jupyter
+kaggle
+python-dotenv

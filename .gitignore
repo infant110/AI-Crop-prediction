@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+.kaggle/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data (Ignored to keep repo clean, use data/download_datasets.py to retrieve)
+data/raw/
+# data/processed/  # Keep processed if small enough, but usually ignored
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
