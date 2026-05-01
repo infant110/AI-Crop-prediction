@@ -65,3 +65,6 @@ streamlit run frontend/app.py
 - `notebooks/`: EDA and model training.
 - `data/`: Data storage and download scripts.
 - `models/`: Saved ML models.
+
+Hosted Link:
+https://ai-crop-prediction-with-xai.streamlit.app/
