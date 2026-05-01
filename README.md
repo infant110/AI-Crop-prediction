@@ -46,17 +46,18 @@ KAGGLE_API_TOKEN=your_token_here
 If the models are not included, run the download script and then the Jupyter notebooks in the `notebooks/` directory.
 
 ### 6. Run the Application
-You will need two terminals:
+The application is now self-contained! You can run it with a single command:
 
-**Terminal 1 (Backend):**
-```bash
-uvicorn backend.main:app --reload
-```
-
-**Terminal 2 (Frontend):**
 ```bash
 streamlit run frontend/app.py
 ```
+
+## Hosting on Streamlit Cloud
+1. Push this repository to GitHub.
+2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/).
+3. Click "New app" and select this repository and the `frontend/app.py` file.
+4. Your app will be live and shared with the world!
+
 
 ## Project Structure
 - `backend/`: FastAPI application and business logic.
